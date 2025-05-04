@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Diversos\\COPIAMVC-2 - Copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|E:\\Diversos\\COPIAMVC-2 - Copia\\igrejamvc\\views\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|E:\\Diversos\\COPIAMVC-2 - Copia\\igrejamvc\\views\\cadastrarinstrumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\cadastrarinstrumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|E:\\Diversos\\COPIAMVC-2 - Copia\\igrejamvc\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\models\\instrumentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\models\\instrumentodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|e:\\diversos\\copiamvc-2 - copia\\igrejamvc\\models\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\models\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastrarInstrumentos.cs [Projeto]",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarInstrumentos.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\CadastrarInstrumentos.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarInstrumentos.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\CadastrarInstrumentos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:37:41.972Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alunos.cs [Projeto]",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Alunos.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Alunos.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Alunos.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Alunos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:37:07.676Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Login.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Login.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAArwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:42:00.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
+              "RelativeDocumentMoniker": "IgrejaMVC\\App.config",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
+              "RelativeToolTip": "IgrejaMVC\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-22T01:37:17.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BancoDados.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Models\\BancoDados.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Models\\BancoDados.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Models\\BancoDados.cs",
+              "RelativeToolTip": "IgrejaMVC\\Models\\BancoDados.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:37:54.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Home.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Home.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAlwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:37:36.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Projeto]",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Login.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:38:27.439Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InstrumentoDAO.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Models\\InstrumentoDAO.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Models\\InstrumentoDAO.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Models\\InstrumentoDAO.cs",
+              "RelativeToolTip": "IgrejaMVC\\Models\\InstrumentoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:37:54.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Form1.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:42:03.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InformacoesProfessores.cs",
+              "DocumentMoniker": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "ToolTip": "E:\\Diversos\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAApwEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:37:54.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
