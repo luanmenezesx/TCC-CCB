@@ -1,0 +1,530 @@
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+C:\Users\Luan\source\repos\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+D:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+E:\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+E:\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Licoes.resources
+C:\Users\Luan\Desktop\-\BACKUP PEN-DRIVE\IgrejaMVC\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Licoes.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+C:\Users\Luan\Desktop\-\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+D:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+E:\Diversos\IgrejaMVC-2\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+E:\Diversos\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.HarfBuzz.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+C:\Users\admin\Documents\BackupTCC\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.HarfBuzz.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.exe
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll.config
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.deps.json
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.runtimeconfig.json
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\HarfBuzzSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WinForms.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\OpenTK.GLControl.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.HarfBuzz.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.Desktop.Common.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\SkiaSharp.Views.WindowsForms.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.AssemblyReference.cache
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Properties.Resources.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Alunos.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarInstrumentos.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.CadastrarProfessor.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Form1.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Hinos.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Home.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesAlunos.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.InformacoesProfessores.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Login.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.Modulos.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.GenerateResource.cache
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfoInputs.cache
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.AssemblyInfo.cs
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.CoreCompileInputs.cache
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.csproj.Up2Date
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\refint\IgrejaMVC.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Apagar.resources
+E:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Apagar.resources
+D:\Diversos\COPIAMVC-2 - Copia\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.Views.AlunosAptos.resources
