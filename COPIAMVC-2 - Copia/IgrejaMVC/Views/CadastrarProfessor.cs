@@ -18,32 +18,36 @@ namespace IgrejaMVC.Views
 
         private void btnCadastrarprof_Click(object sender, EventArgs e)
         {
-            // Pegando os dados dos campos
-            // Pegando os dados dos campos
             string nome = txtCadNomeProfessor.Text;
             string senha = txtCadSenhaProfessor.Text;
-            string confirmaSenha = textRepitaSenha.Text; // Campo adicional para confirmação da senha
+            string confirmaSenha = textRepitaSenha.Text;
             string perfil = cmbPerfil.Text;
+            string senhaChave = txtSenhaChave.Text;
 
-
-            // Validação simples
             if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(senha) || string.IsNullOrWhiteSpace(confirmaSenha))
             {
                 MessageBox.Show("Preencha todos os campos!");
                 return;
             }
 
-            // Validação para verificar se a senha e a confirmação de senha são iguais
             if (senha != confirmaSenha)
             {
                 MessageBox.Show("As senhas não coincidem. Tente novamente.");
                 return;
             }
 
-            // Comando SQL
-            string query = "INSERT INTO Professores (Nome_professor, Senha_professor, perfil_professor) VALUES (@Nome, @Senha,@Perfil)";
+            // Validação de senha-chave para administrador
+            if (perfil == "Administrador")
+            {
+                if (string.IsNullOrWhiteSpace(senhaChave) || senhaChave != "1234")
+                {
+                    MessageBox.Show("Você não pode ser administrador.");
+                    return;
+                }
+            }
 
-            // Executando inserção
+            string query = "INSERT INTO Professores (Nome_professor, Senha_professor, perfil_professor) VALUES (@Nome, @Senha, @Perfil)";
+
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 using (MySqlCommand command = new MySqlCommand(query, connection))
@@ -56,16 +60,19 @@ namespace IgrejaMVC.Views
                     {
                         connection.Open();
                         int result = command.ExecuteNonQuery();
-
                         if (result > 0)
                         {
-                            MessageBox.Show("Professor cadastrado com sucesso!");
+                            if (perfil == "Administrador")
+                            {
+                                MessageBox.Show("Seja bem-vindo, Administrador!");
+                            }
+                            else
+                            {
+                                MessageBox.Show("Seja bem-vindo, Professor!");
+                            }
 
-                            // Abre a tela de login
                             Login loginForm = new Login();
                             loginForm.Show();
-
-                            // Fecha a tela atual
                             this.Close();
                         }
                         else
@@ -80,9 +87,11 @@ namespace IgrejaMVC.Views
                 }
             }
         }
+        
 
         private void CadastrarProfessor_Load(object sender, EventArgs e)
         {
+            txtSenhaChave.Visible = false; // Campo oculto por padrão
 
         }
 
@@ -104,6 +113,24 @@ namespace IgrejaMVC.Views
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtSenhaChave_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbPerfil_SelectedIndexChanged(object sender, EventArgs e)
+        {
+          
+            if (cmbPerfil.SelectedItem != null && cmbPerfil.SelectedItem.ToString() == "Administrador")
+            {
+                txtSenhaChave.Visible = true;
+            }
+            else
+            {
+                txtSenhaChave.Visible = false;
+            }
         }
     }
 }

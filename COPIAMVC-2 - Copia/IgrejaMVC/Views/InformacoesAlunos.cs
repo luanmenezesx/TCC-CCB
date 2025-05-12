@@ -156,8 +156,8 @@ namespace IgrejaMVC.Views
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Home form = new Home();
-            form.ShowDialog();
+            //Home form = new Home();
+            this.Close();
         }
 
         private void btnInstrumento_Click(object sender, EventArgs e)

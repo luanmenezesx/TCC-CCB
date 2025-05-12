@@ -9,6 +9,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClosedXML.Excel;
+using System.IO;
+
 
 namespace IgrejaMVC.Views
 {
@@ -127,21 +130,20 @@ namespace IgrejaMVC.Views
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-            form.ShowDialog();
+            form.Show();
             this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Home form = new Home();
-            form.ShowDialog();
             this.Close();
         }
 
         private void btnInstrumento_Click(object sender, EventArgs e)
         {
             CadastrarInstrumentos form = new CadastrarInstrumentos();
-            form.ShowDialog();
+            form.Show();
             this.Close();
         }
 
@@ -171,7 +173,7 @@ namespace IgrejaMVC.Views
             InformacoesProfessores form = new InformacoesProfessores();
             form.Professor = this.Professor;
             form.Perfil = this.Perfil;
-            form.ShowDialog();
+            form.Show();
         }
 
         private void btnExcluirAluno_Click(object sender, EventArgs e)
@@ -228,5 +230,49 @@ namespace IgrejaMVC.Views
         {
             Application.Exit();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnImprimirRel_Click(object sender, EventArgs e)
+        {
+
+            using(var workbook = new XLWorkbook())
+    {
+                var worksheet = workbook.Worksheets.Add("Relatório de Alunos");
+
+                // Adiciona cabeçalhos
+                worksheet.Cell(1, 1).Value = "Nome";
+                worksheet.Cell(1, 2).Value = "CPF";
+                worksheet.Cell(1, 3).Value = "Email";
+                worksheet.Cell(1, 4).Value = "Telefone";
+
+                int row = 2;
+
+                foreach (DataGridViewRow gridRow in gridAluno.Rows)
+                {
+                    if (!gridRow.IsNewRow)
+                    {
+                        worksheet.Cell(row, 1).Value = gridRow.Cells["nome"].Value?.ToString();
+                        worksheet.Cell(row, 2).Value = gridRow.Cells["cpf"].Value?.ToString();
+                        worksheet.Cell(row, 3).Value = gridRow.Cells["email"].Value?.ToString();
+                        worksheet.Cell(row, 4).Value = gridRow.Cells["telefone"].Value?.ToString();
+                        row++;
+                    }
+                }
+
+                // Ajusta automaticamente as colunas
+                worksheet.Columns().AdjustToContents();
+
+                // Define o caminho da pasta Downloads
+                string downloadsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", "RelatorioAlunos.xlsx");
+                workbook.SaveAs(downloadsPath);
+
+                MessageBox.Show($"Relatório salvo com sucesso em {downloadsPath}!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
     }
 }

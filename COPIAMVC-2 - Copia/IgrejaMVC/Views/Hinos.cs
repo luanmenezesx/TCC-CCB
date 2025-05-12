@@ -33,19 +33,21 @@ namespace IgrejaMVC.Views
         private void button3_Click(object sender, EventArgs e)
         {
             Home form = new Home();
-            form.ShowDialog();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-            form.ShowDialog();
+            form.Show();
+            this.Close();
         }
 
         private void btnInstrumento_Click(object sender, EventArgs e)
         {
             CadastrarInstrumentos form = new CadastrarInstrumentos();
-            form.ShowDialog();
+            form.Show();
+            this.Close();
         }
 
 
@@ -122,11 +124,11 @@ namespace IgrejaMVC.Views
         public string Perfil { get; set; }
         private void btnProfessores_Click(object sender, EventArgs e)
         {
-
             InformacoesProfessores form = new InformacoesProfessores();
             form.Professor = this.Professor;
             form.Perfil = this.Perfil;
-            form.ShowDialog();
+            form.Show();
+            this.Close();
         }
 
         private void pictureBox6_Click_1(object sender, EventArgs e)

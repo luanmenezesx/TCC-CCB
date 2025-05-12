@@ -141,5 +141,39 @@ namespace IgrejaMVC.Views
                 telaHinos.ShowDialog();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            InformacoesAlunos form1 = new InformacoesAlunos();
+            form1.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Close();
+        }
+
+        private void btnInstrumento_Click(object sender, EventArgs e)
+        {
+            CadastrarInstrumentos cadastrarInstrumentos = new CadastrarInstrumentos();
+            cadastrarInstrumentos.Show();
+            this.Close();
+        }
+
+        private void btnProfessores_Click(object sender, EventArgs e)
+        {
+            InformacoesProfessores informacoesProfessores = new InformacoesProfessores();
+            informacoesProfessores.Show();
+            this.Close();
+        }
     }
 }

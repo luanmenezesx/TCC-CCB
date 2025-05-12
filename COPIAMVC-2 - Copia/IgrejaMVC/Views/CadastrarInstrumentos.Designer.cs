@@ -362,7 +362,7 @@
             gridInstrumento.DefaultCellStyle = dataGridViewCellStyle2;
             gridInstrumento.Location = new Point(434, 230);
             gridInstrumento.Name = "gridInstrumento";
-            gridInstrumento.Size = new Size(480, 423);
+            gridInstrumento.Size = new Size(480, 287);
             gridInstrumento.TabIndex = 115;
             gridInstrumento.CellContentClick += gridInstrumento_CellContentClick;
             // 

@@ -142,30 +142,29 @@ namespace IgrejaMVC.Views
         {
             CadastrarInstrumentos cadastrarInstrumentos = new CadastrarInstrumentos();
             cadastrarInstrumentos.Show();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 frm = new Form1();
-            frm.ShowDialog();
+            frm.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Alunos alunos = new Alunos();
             alunos.Show();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Home home = new Home();
-            home.Show();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
             this.Close();
         }
+
 
         private void pictureBox7_Click_1(object sender, EventArgs e)
         {

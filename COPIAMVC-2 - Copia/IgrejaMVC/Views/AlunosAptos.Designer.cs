@@ -108,6 +108,7 @@
             btnProfessores.TabIndex = 21;
             btnProfessores.Text = "Professores";
             btnProfessores.UseVisualStyleBackColor = false;
+            btnProfessores.Click += btnProfessores_Click;
             // 
             // pictureBox5
             // 
@@ -132,6 +133,7 @@
             btnInstrumento.TabIndex = 10;
             btnInstrumento.Text = "Cadastrar\r\n Instrumento";
             btnInstrumento.UseVisualStyleBackColor = false;
+            btnInstrumento.Click += btnInstrumento_Click;
             // 
             // pictureBox1
             // 
@@ -156,6 +158,7 @@
             button1.TabIndex = 7;
             button1.Text = "Novo Aluno";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox2
             // 
@@ -180,6 +183,7 @@
             button2.TabIndex = 5;
             button2.Text = "Alunos";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // pictureBox3
             // 
@@ -204,6 +208,7 @@
             button3.TabIndex = 1;
             button3.Text = "DashBoard";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // pictureBox4
             // 
@@ -241,7 +246,7 @@
             gridCultoJovens.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridCultoJovens.Location = new Point(372, 252);
             gridCultoJovens.Name = "gridCultoJovens";
-            gridCultoJovens.Size = new Size(920, 423);
+            gridCultoJovens.Size = new Size(920, 325);
             gridCultoJovens.TabIndex = 82;
             gridCultoJovens.CellContentClick += gridCultoJovens_CellContentClick;
             // 
@@ -270,7 +275,7 @@
             gridCultoficial.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridCultoficial.Location = new Point(372, 252);
             gridCultoficial.Name = "gridCultoficial";
-            gridCultoficial.Size = new Size(920, 423);
+            gridCultoficial.Size = new Size(920, 325);
             gridCultoficial.TabIndex = 129;
             gridCultoficial.CellContentClick += gridCultoficial_CellContentClick;
             // 
@@ -289,7 +294,7 @@
             gridOficializacao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridOficializacao.Location = new Point(372, 252);
             gridOficializacao.Name = "gridOficializacao";
-            gridOficializacao.Size = new Size(920, 423);
+            gridOficializacao.Size = new Size(920, 325);
             gridOficializacao.TabIndex = 130;
             gridOficializacao.CellContentClick += gridOficializacao_CellContentClick;
             // 

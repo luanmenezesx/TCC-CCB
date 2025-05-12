@@ -49,6 +49,7 @@
             btnExcluirAluno = new Button();
             pictureBox8 = new PictureBox();
             pictureBox6 = new PictureBox();
+            btnImprimirRel = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -80,6 +81,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(281, 749);
             panel1.TabIndex = 18;
+            panel1.Paint += panel1_Paint;
             // 
             // pictureBox7
             // 
@@ -222,7 +224,7 @@
             gridAluno.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridAluno.Location = new Point(372, 244);
             gridAluno.Name = "gridAluno";
-            gridAluno.Size = new Size(920, 423);
+            gridAluno.Size = new Size(920, 325);
             gridAluno.TabIndex = 81;
             gridAluno.CellContentClick += gridAluno_CellContentClick;
             // 
@@ -267,7 +269,7 @@
             btnHinos.FlatAppearance.BorderSize = 0;
             btnHinos.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnHinos.ForeColor = SystemColors.ControlLightLight;
-            btnHinos.Location = new Point(926, 692);
+            btnHinos.Location = new Point(926, 591);
             btnHinos.Name = "btnHinos";
             btnHinos.Size = new Size(114, 37);
             btnHinos.TabIndex = 82;
@@ -281,7 +283,7 @@
             btnExcluirAluno.FlatAppearance.BorderSize = 0;
             btnExcluirAluno.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnExcluirAluno.ForeColor = SystemColors.ControlLightLight;
-            btnExcluirAluno.Location = new Point(1069, 692);
+            btnExcluirAluno.Location = new Point(1069, 594);
             btnExcluirAluno.Name = "btnExcluirAluno";
             btnExcluirAluno.Size = new Size(223, 34);
             btnExcluirAluno.TabIndex = 121;
@@ -311,11 +313,26 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
+            // btnImprimirRel
+            // 
+            btnImprimirRel.BackColor = Color.SteelBlue;
+            btnImprimirRel.FlatAppearance.BorderSize = 0;
+            btnImprimirRel.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnImprimirRel.ForeColor = SystemColors.ControlLightLight;
+            btnImprimirRel.Location = new Point(738, 591);
+            btnImprimirRel.Name = "btnImprimirRel";
+            btnImprimirRel.Size = new Size(160, 37);
+            btnImprimirRel.TabIndex = 123;
+            btnImprimirRel.Text = "Imprimir Relatório";
+            btnImprimirRel.UseVisualStyleBackColor = false;
+            btnImprimirRel.Click += btnImprimirRel_Click;
+            // 
             // Alunos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(btnImprimirRel);
             Controls.Add(pictureBox8);
             Controls.Add(btnExcluirAluno);
             Controls.Add(pictureBox6);
@@ -364,5 +381,6 @@
         private Button btnExcluirAluno;
         private PictureBox pictureBox8;
         private PictureBox pictureBox6;
+        private Button btnImprimirRel;
     }
 }

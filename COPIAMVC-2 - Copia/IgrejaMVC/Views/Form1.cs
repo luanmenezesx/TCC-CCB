@@ -15,50 +15,54 @@ namespace IgrejaMVC
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
+            try
             {
-                try
+                // Verifica se a foto foi carregada
+                if (string.IsNullOrEmpty(caminhoFoto))
                 {
-                    // Criação do novo aluno com os valores dos campos
-                    Aluno novoAluno = new Aluno
-                    {
-                        Nome = txtNome.Text,
-                        CPF = txtCPF.Text,
-                        DtNascimento = txtDtNascimento.Value, // Corrigindo a propriedade
-                        Instrumento = int.Parse(txtInstrumento.SelectedValue.ToString()),
-                        Telefone = txtTelefone.Text,
-                        Email = txtEmail.Text,
-                        CEP = txtCEP.Text,
-                        Endereco = txtEndereco.Text,
-                        Numero = txtNumero.Text,
-                        Bairro = txtBairro.Text,
-                        Cidade = txtCidade.Text,
-                        Estado = txtEstado.Text,
-                        EstadoCivil = txtEstadoCivil.Text,
-                        FotoPerfil = ObterFotoComoByteArray(caminhoFoto)
-                    };
-
-                    // Inserir no banco de dados
-                    AlunoDAO alunoDAO = new AlunoDAO();
-                    bool sucesso = alunoDAO.CadastrarAluno(novoAluno);
-
-                    // Verificar o resultado
-                    if (sucesso)
-                    {
-                        MessageBox.Show("Aluno cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LimparCampos();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Erro ao cadastrar o aluno.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                    MessageBox.Show("Por favor, preencha todos os campos antes de salvar.", "Campos Obrigatórios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+                // Criação do novo aluno com os valores dos campos
+                Aluno novoAluno = new Aluno
+                {
+                    Nome = txtNome.Text,
+                    CPF = txtCPF.Text,
+                    DtNascimento = txtDtNascimento.Value,
+                    Instrumento = int.Parse(txtInstrumento.SelectedValue.ToString()),
+                    Telefone = txtTelefone.Text,
+                    Email = txtEmail.Text,
+                    CEP = txtCEP.Text,
+                    Endereco = txtEndereco.Text,
+                    Numero = txtNumero.Text,
+                    Bairro = txtBairro.Text,
+                    Cidade = txtCidade.Text,
+                    Estado = txtEstado.Text,
+                    EstadoCivil = txtEstadoCivil.Text,
+                    FotoPerfil = ObterFotoComoByteArray(caminhoFoto)
+                };
+
+                // Inserir no banco de dados
+                AlunoDAO alunoDAO = new AlunoDAO();
+                bool sucesso = alunoDAO.CadastrarAluno(novoAluno);
+
+                if (sucesso)
+                {
+                    MessageBox.Show("Aluno cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LimparCampos();
+                }
+                else
+                {
+                    MessageBox.Show("Erro ao cadastrar o aluno.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
 
         private void LimparCampos()
         {
@@ -137,18 +141,11 @@ namespace IgrejaMVC
 
         }
 
-        private void btnExcluirFoto_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
-
-            // Abre o novo formulário
             Alunos form = new Alunos();
-            form.ShowDialog();
+            form.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -177,7 +174,8 @@ namespace IgrejaMVC
         private void btnInstrumento_Click(object sender, EventArgs e)
         {
             CadastrarInstrumentos form = new CadastrarInstrumentos();
-            form.ShowDialog();
+            form.Show();
+            this.Close();
         }
 
         private void txtInstrumento_SelectedIndexChanged(object sender, EventArgs e)
@@ -197,7 +195,8 @@ namespace IgrejaMVC
             InformacoesProfessores form = new InformacoesProfessores();
             form.Professor = this.Professor;
             form.Perfil = this.Perfil;
-            form.ShowDialog();
+            form.Show();
+            this.Close();
         }
 
         private void pictureBox3_Click_1(object sender, EventArgs e)
@@ -209,6 +208,12 @@ namespace IgrejaMVC
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Home form = new Home();
+            this.Close();
         }
     }
 }

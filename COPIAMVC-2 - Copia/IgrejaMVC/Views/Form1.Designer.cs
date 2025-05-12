@@ -231,6 +231,7 @@
             button6.TabIndex = 1;
             button6.Text = "DashBoard";
             button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // pictureBox8
             // 

@@ -169,20 +169,20 @@ namespace IgrejaMVC.Views
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-            form.ShowDialog();
+            form.Show();
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
             Alunos form = new Alunos();
-            form.ShowDialog();
+            form.Show();
         }
 
         private void btnInstrumento_Click(object sender, EventArgs e)
         {
             CadastrarInstrumentos form = new CadastrarInstrumentos();
-            form.ShowDialog();
+            form.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -195,7 +195,7 @@ namespace IgrejaMVC.Views
             InformacoesProfessores form = new InformacoesProfessores();
             form.Professor = this.Professor;
             form.Perfil = this.Perfil;
-            form.ShowDialog();
+            form.Show();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)

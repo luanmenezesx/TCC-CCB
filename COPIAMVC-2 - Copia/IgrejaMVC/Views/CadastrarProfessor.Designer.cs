@@ -44,6 +44,7 @@
             cmbPerfil = new ComboBox();
             pictureBox6 = new PictureBox();
             pictureBox5 = new PictureBox();
+            txtSenhaChave = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
@@ -120,7 +121,7 @@
             // 
             txtCadSenhaProfessor.BorderStyle = BorderStyle.FixedSingle;
             txtCadSenhaProfessor.Font = new Font("Century Gothic", 12F);
-            txtCadSenhaProfessor.Location = new Point(936, 394);
+            txtCadSenhaProfessor.Location = new Point(935, 394);
             txtCadSenhaProfessor.Margin = new Padding(3, 4, 3, 4);
             txtCadSenhaProfessor.MaxLength = 20;
             txtCadSenhaProfessor.Name = "txtCadSenhaProfessor";
@@ -146,7 +147,7 @@
             btnCadastrarprof.BackColor = Color.SteelBlue;
             btnCadastrarprof.FlatAppearance.BorderColor = Color.Black;
             btnCadastrarprof.Font = new Font("Century Gothic", 12F);
-            btnCadastrarprof.Location = new Point(939, 529);
+            btnCadastrarprof.Location = new Point(935, 584);
             btnCadastrarprof.Margin = new Padding(3, 4, 3, 4);
             btnCadastrarprof.Name = "btnCadastrarprof";
             btnCadastrarprof.Size = new Size(289, 41);
@@ -167,7 +168,7 @@
             // 
             pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(881, 429);
+            pictureBox3.Location = new Point(880, 439);
             pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(50, 27);
@@ -179,7 +180,7 @@
             // 
             textRepitaSenha.BorderStyle = BorderStyle.FixedSingle;
             textRepitaSenha.Font = new Font("Century Gothic", 12F);
-            textRepitaSenha.Location = new Point(937, 429);
+            textRepitaSenha.Location = new Point(935, 439);
             textRepitaSenha.Margin = new Padding(3, 4, 3, 4);
             textRepitaSenha.MaxLength = 20;
             textRepitaSenha.Name = "textRepitaSenha";
@@ -194,10 +195,11 @@
             cmbPerfil.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbPerfil.FormattingEnabled = true;
             cmbPerfil.Items.AddRange(new object[] { "Administrador", "Professor" });
-            cmbPerfil.Location = new Point(936, 469);
+            cmbPerfil.Location = new Point(936, 488);
             cmbPerfil.Name = "cmbPerfil";
             cmbPerfil.Size = new Size(288, 29);
             cmbPerfil.TabIndex = 68;
+            cmbPerfil.SelectedIndexChanged += cmbPerfil_SelectedIndexChanged;
             // 
             // pictureBox6
             // 
@@ -221,11 +223,26 @@
             pictureBox5.TabStop = false;
             pictureBox5.Click += pictureBox5_Click;
             // 
+            // txtSenhaChave
+            // 
+            txtSenhaChave.BorderStyle = BorderStyle.FixedSingle;
+            txtSenhaChave.Font = new Font("Century Gothic", 12F);
+            txtSenhaChave.Location = new Point(935, 538);
+            txtSenhaChave.Margin = new Padding(3, 4, 3, 4);
+            txtSenhaChave.MaxLength = 20;
+            txtSenhaChave.Name = "txtSenhaChave";
+            txtSenhaChave.PlaceholderText = "Digite a senha chave";
+            txtSenhaChave.Size = new Size(288, 27);
+            txtSenhaChave.TabIndex = 124;
+            txtSenhaChave.UseSystemPasswordChar = true;
+            txtSenhaChave.TextChanged += txtSenhaChave_TextChanged;
+            // 
             // CadastrarProfessor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(txtSenhaChave);
             Controls.Add(pictureBox5);
             Controls.Add(pictureBox6);
             Controls.Add(cmbPerfil);
@@ -271,5 +288,6 @@
         private ComboBox cmbPerfil;
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
+        private TextBox txtSenhaChave;
     }
 }

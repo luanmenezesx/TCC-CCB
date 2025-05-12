@@ -245,7 +245,7 @@
             gridHinos.DefaultCellStyle = dataGridViewCellStyle2;
             gridHinos.Location = new Point(364, 186);
             gridHinos.Name = "gridHinos";
-            gridHinos.Size = new Size(920, 423);
+            gridHinos.Size = new Size(920, 325);
             gridHinos.TabIndex = 123;
             gridHinos.CellContentClick += gridAluno_CellContentClick;
             // 
@@ -255,7 +255,7 @@
             btnSalvarHino.FlatAppearance.BorderSize = 0;
             btnSalvarHino.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSalvarHino.ForeColor = SystemColors.ControlLightLight;
-            btnSalvarHino.Location = new Point(914, 633);
+            btnSalvarHino.Location = new Point(913, 556);
             btnSalvarHino.Name = "btnSalvarHino";
             btnSalvarHino.Size = new Size(223, 34);
             btnSalvarHino.TabIndex = 120;
@@ -268,7 +268,7 @@
             DtCadastro.AutoSize = true;
             DtCadastro.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             DtCadastro.ForeColor = Color.SteelBlue;
-            DtCadastro.Location = new Point(364, 612);
+            DtCadastro.Location = new Point(363, 535);
             DtCadastro.Name = "DtCadastro";
             DtCadastro.Size = new Size(135, 21);
             DtCadastro.TabIndex = 118;
@@ -299,7 +299,7 @@
             // 
             txtNomeHino.Enabled = false;
             txtNomeHino.Font = new Font("Century Gothic", 12F);
-            txtNomeHino.Location = new Point(548, 636);
+            txtNomeHino.Location = new Point(547, 559);
             txtNomeHino.Name = "txtNomeHino";
             txtNomeHino.PlaceholderText = "Insira o Nome do Hino";
             txtNomeHino.Size = new Size(341, 27);
@@ -311,7 +311,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.SteelBlue;
-            label1.Location = new Point(536, 612);
+            label1.Location = new Point(535, 535);
             label1.Name = "label1";
             label1.Size = new Size(124, 21);
             label1.TabIndex = 126;
@@ -352,7 +352,7 @@
             // 
             // txtNumeroHino
             // 
-            txtNumeroHino.Location = new Point(364, 636);
+            txtNumeroHino.Location = new Point(363, 559);
             txtNumeroHino.Name = "txtNumeroHino";
             txtNumeroHino.Size = new Size(135, 23);
             txtNumeroHino.TabIndex = 130;
