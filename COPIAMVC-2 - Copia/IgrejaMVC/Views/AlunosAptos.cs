@@ -1,4 +1,5 @@
-﻿using IgrejaMVC.Models;
+﻿using ClosedXML.Excel;
+using IgrejaMVC.Models;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -174,6 +175,76 @@ namespace IgrejaMVC.Views
             InformacoesProfessores informacoesProfessores = new InformacoesProfessores();
             informacoesProfessores.Show();
             this.Close();
+        }
+
+        private void btnImprimirRel_Click(object sender, EventArgs e)
+        {
+            DataGridView gridAtual = null;
+            string nomePlanilha = "";
+
+            switch (cmbFiltraAptos.SelectedItem.ToString())
+            {
+                case "Culto de Jovens":
+                    gridAtual = gridCultoJovens;
+                    nomePlanilha = "Culto de Jovens";
+                    break;
+                case "Culto Oficial":
+                    gridAtual = gridCultoficial;
+                    nomePlanilha = "Culto Oficial";
+                    break;
+                case "Oficialização":
+                    gridAtual = gridOficializacao;
+                    nomePlanilha = "Oficialização";
+                    break;
+            }
+
+            if (gridAtual == null) return;
+
+            using (var workbook = new ClosedXML.Excel.XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add(nomePlanilha);
+
+                // Cabeçalhos
+                worksheet.Cell(1, 1).Value = "ID";
+                worksheet.Cell(1, 2).Value = "Nome";
+                worksheet.Cell(1, 3).Value = "Total de Hinos";
+
+                // Estilo cabeçalho
+                var header = worksheet.Range("A1:C1");
+                header.Style.Font.Bold = true;
+                header.Style.Fill.BackgroundColor = XLColor.LightSteelBlue;
+                header.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                header.Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+
+                int linha = 2;
+
+                foreach (DataGridViewRow row in gridAtual.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        worksheet.Cell(linha, 1).Value = row.Cells["id"].Value?.ToString();
+                        worksheet.Cell(linha, 2).Value = row.Cells["nome"].Value?.ToString();
+                        worksheet.Cell(linha, 3).Value = row.Cells["total_hinos"].Value?.ToString();
+
+                        linha++;
+                    }
+                }
+
+                worksheet.Columns().AdjustToContents();
+
+                // Caminho do arquivo
+                string caminhoArquivo = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                    "Downloads",
+                    $"Relatorio_{nomePlanilha.Replace(" ", "_")}.xlsx"
+                );
+
+                workbook.SaveAs(caminhoArquivo);
+
+                MessageBox.Show($"Relatório '{nomePlanilha}' salvo com sucesso em:\n{caminhoArquivo}",
+                                "Relatório Gerado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
         }
     }
 }

@@ -136,5 +136,50 @@ namespace IgrejaMVC.Views
         {
             Application.Exit();
         }
+
+        private void btnImprimirRel_Click(object sender, EventArgs e)
+        {
+            using (var workbook = new ClosedXML.Excel.XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add("Instrumentos");
+
+                // Cabeçalhos
+                worksheet.Cell(1, 1).Value = "Nome do Instrumento";
+                worksheet.Cell(1, 2).Value = "Quantidade Máxima";
+
+                // Estilizando cabeçalhos
+                var header = worksheet.Range("A1:B1");
+                header.Style.Font.Bold = true;
+                header.Style.Fill.BackgroundColor = ClosedXML.Excel.XLColor.LightSteelBlue;
+                header.Style.Alignment.Horizontal = ClosedXML.Excel.XLAlignmentHorizontalValues.Center;
+                header.Style.Border.OutsideBorder = ClosedXML.Excel.XLBorderStyleValues.Thin;
+
+                int linha = 2;
+
+                foreach (DataGridViewRow row in gridInstrumento.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        worksheet.Cell(linha, 1).Value = row.Cells["nome instrumento"].Value?.ToString();
+                        worksheet.Cell(linha, 2).Value = row.Cells["quantidade máxima"].Value?.ToString();
+                        linha++;
+                    }
+                }
+
+                worksheet.Columns().AdjustToContents();
+
+                // Caminho do arquivo
+                string caminhoArquivo = System.IO.Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                    "Downloads",
+                    "Relatorio_Instrumentos.xlsx"
+                );
+
+                workbook.SaveAs(caminhoArquivo);
+
+                MessageBox.Show($"Relatório salvo com sucesso em:\n{caminhoArquivo}",
+                    "Relatório Gerado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

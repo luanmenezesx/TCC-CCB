@@ -55,6 +55,7 @@
             btnExcluirProfessor = new Button();
             pictureBox7 = new PictureBox();
             pictureBox8 = new PictureBox();
+            btnImprimirRel = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -372,11 +373,26 @@
             pictureBox8.TabStop = false;
             pictureBox8.Click += pictureBox8_Click;
             // 
+            // btnImprimirRel
+            // 
+            btnImprimirRel.BackColor = Color.SteelBlue;
+            btnImprimirRel.FlatAppearance.BorderSize = 0;
+            btnImprimirRel.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnImprimirRel.ForeColor = SystemColors.ControlLightLight;
+            btnImprimirRel.Location = new Point(854, 584);
+            btnImprimirRel.Name = "btnImprimirRel";
+            btnImprimirRel.Size = new Size(160, 37);
+            btnImprimirRel.TabIndex = 124;
+            btnImprimirRel.Text = "Extrair Relatório";
+            btnImprimirRel.UseVisualStyleBackColor = false;
+            btnImprimirRel.Click += btnImprimirRel_Click;
+            // 
             // InformacoesProfessores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(btnImprimirRel);
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
             Controls.Add(btnExcluirProfessor);
@@ -428,5 +444,6 @@
         private Label label3;
         private PictureBox pictureBox7;
         private PictureBox pictureBox8;
+        private Button btnImprimirRel;
     }
 }

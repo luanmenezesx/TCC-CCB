@@ -1,4 +1,5 @@
-﻿using IgrejaMVC.Models;
+﻿using ClosedXML.Excel;
+using IgrejaMVC.Models;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -176,5 +177,64 @@ namespace IgrejaMVC.Views
         {
             Application.Exit();
         }
+
+        private void btnImprimirRel_Click(object sender, EventArgs e)
+        {
+            using (var workbook = new ClosedXML.Excel.XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add("Relatório de Professores");
+
+                // Cabeçalhos
+                worksheet.Cell(1, 1).Value = "ID";
+                worksheet.Cell(1, 2).Value = "Nome";
+                worksheet.Cell(1, 3).Value = "Perfil";
+
+                // Estilo do cabeçalho
+                var headerRange = worksheet.Range("A1:C1");
+                headerRange.Style.Font.Bold = true;
+                headerRange.Style.Fill.BackgroundColor = XLColor.LightGray;
+                headerRange.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                headerRange.Style.Alignment.Vertical = XLAlignmentVerticalValues.Center;
+                headerRange.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.TopBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.LeftBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.RightBorder = XLBorderStyleValues.Thin;
+
+                int linha = 2;
+
+                foreach (DataGridViewRow row in gridProfessores.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        worksheet.Cell(linha, 1).Value = row.Cells["id_professor"].Value?.ToString();
+                        worksheet.Cell(linha, 2).Value = row.Cells["nome"].Value?.ToString();
+                        worksheet.Cell(linha, 3).Value = row.Cells["perfil"].Value?.ToString();
+
+                        // Estilo das células
+                        worksheet.Range(linha, 1, linha, 3).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
+                        worksheet.Range(linha, 1, linha, 3).Style.Alignment.Vertical = XLAlignmentVerticalValues.Center;
+                        worksheet.Range(linha, 1, linha, 3).Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+
+                        linha++;
+                    }
+                }
+
+                // Ajusta automaticamente as colunas
+                worksheet.Columns().AdjustToContents();
+
+                // Define o caminho da pasta Downloads
+                string caminhoArquivo = System.IO.Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                    "Downloads",
+                    "RelatorioProfessores.xlsx"
+                );
+
+                workbook.SaveAs(caminhoArquivo);
+
+                MessageBox.Show($"Relatório salvo com sucesso em:\n{caminhoArquivo}",
+                    "Relatório Gerado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
+  
 }

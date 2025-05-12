@@ -323,7 +323,7 @@
             btnImprimirRel.Name = "btnImprimirRel";
             btnImprimirRel.Size = new Size(160, 37);
             btnImprimirRel.TabIndex = 123;
-            btnImprimirRel.Text = "Imprimir Relatório";
+            btnImprimirRel.Text = "Extrair Relatório";
             btnImprimirRel.UseVisualStyleBackColor = false;
             btnImprimirRel.Click += btnImprimirRel_Click;
             // 

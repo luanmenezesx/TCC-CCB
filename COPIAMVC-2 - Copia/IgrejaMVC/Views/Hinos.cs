@@ -141,5 +141,53 @@ namespace IgrejaMVC.Views
         {
             Application.Exit();
         }
+
+        private void btnImprimirRel_Click(object sender, EventArgs e)
+        {
+            using (var workbook = new ClosedXML.Excel.XLWorkbook())
+            {
+                var worksheet = workbook.Worksheets.Add("Hinos do Aluno");
+
+                // Cabeçalhos
+                worksheet.Cell(1, 1).Value = "Número";
+                worksheet.Cell(1, 2).Value = "Nome";
+                worksheet.Cell(1, 3).Value = "Data de Passagem";
+
+                // Estiliza os cabeçalhos
+                var header = worksheet.Range("A1:C1");
+                header.Style.Font.Bold = true;
+                header.Style.Fill.BackgroundColor = ClosedXML.Excel.XLColor.LightSteelBlue;
+                header.Style.Alignment.Horizontal = ClosedXML.Excel.XLAlignmentHorizontalValues.Center;
+                header.Style.Border.OutsideBorder = ClosedXML.Excel.XLBorderStyleValues.Thin;
+
+                int linha = 2;
+
+                foreach (DataGridViewRow row in gridHinos.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        worksheet.Cell(linha, 1).Value = row.Cells["Número"].Value?.ToString();
+                        worksheet.Cell(linha, 2).Value = row.Cells["nome"].Value?.ToString();
+                        worksheet.Cell(linha, 3).Value = row.Cells["Data de Passagem"].Value?.ToString();
+                        linha++;
+                    }
+                }
+
+                // Ajuste automático das colunas
+                worksheet.Columns().AdjustToContents();
+
+                // Caminho para salvar o arquivo
+                string caminho = System.IO.Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+                    "Downloads",
+                    $"Hinos_Aluno_{idAluno}.xlsx"
+                );
+
+                workbook.SaveAs(caminho);
+
+                MessageBox.Show($"Relatório salvo com sucesso em:\n{caminho}", "Relatório Gerado",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

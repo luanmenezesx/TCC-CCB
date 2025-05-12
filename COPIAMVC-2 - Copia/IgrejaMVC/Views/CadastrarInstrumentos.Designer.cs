@@ -59,6 +59,7 @@
             txtPesqInstrumentos = new TextBox();
             pictureBox8 = new PictureBox();
             pictureBox6 = new PictureBox();
+            btnImprimirRel = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -420,11 +421,26 @@
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;
             // 
+            // btnImprimirRel
+            // 
+            btnImprimirRel.BackColor = Color.SteelBlue;
+            btnImprimirRel.FlatAppearance.BorderSize = 0;
+            btnImprimirRel.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnImprimirRel.ForeColor = SystemColors.ControlLightLight;
+            btnImprimirRel.Location = new Point(754, 523);
+            btnImprimirRel.Name = "btnImprimirRel";
+            btnImprimirRel.Size = new Size(160, 37);
+            btnImprimirRel.TabIndex = 134;
+            btnImprimirRel.Text = "Extrair Relatório";
+            btnImprimirRel.UseVisualStyleBackColor = false;
+            btnImprimirRel.Click += btnImprimirRel_Click;
+            // 
             // CadastrarInstrumentos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(btnImprimirRel);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox8);
             Controls.Add(btnPesquisarInstrumento);
@@ -486,5 +502,6 @@
         private Label label4;
         private Label lblPerfil;
         private PictureBox pictureBox6;
+        private Button btnImprimirRel;
     }
 }

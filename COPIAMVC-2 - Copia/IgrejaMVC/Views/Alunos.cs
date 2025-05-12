@@ -238,9 +238,8 @@ namespace IgrejaMVC.Views
 
         private void btnImprimirRel_Click(object sender, EventArgs e)
         {
-
-            using(var workbook = new XLWorkbook())
-    {
+            using (var workbook = new XLWorkbook())
+            {
                 var worksheet = workbook.Worksheets.Add("Relatório de Alunos");
 
                 // Adiciona cabeçalhos
@@ -248,6 +247,17 @@ namespace IgrejaMVC.Views
                 worksheet.Cell(1, 2).Value = "CPF";
                 worksheet.Cell(1, 3).Value = "Email";
                 worksheet.Cell(1, 4).Value = "Telefone";
+
+                // Estilo do cabeçalho
+                var headerRange = worksheet.Range("A1:D1");
+                headerRange.Style.Font.Bold = true;
+                headerRange.Style.Fill.BackgroundColor = XLColor.LightGray;
+                headerRange.Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+                headerRange.Style.Alignment.Vertical = XLAlignmentVerticalValues.Center;
+                headerRange.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.TopBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.LeftBorder = XLBorderStyleValues.Thin;
+                headerRange.Style.Border.RightBorder = XLBorderStyleValues.Thin;
 
                 int row = 2;
 
@@ -259,6 +269,12 @@ namespace IgrejaMVC.Views
                         worksheet.Cell(row, 2).Value = gridRow.Cells["cpf"].Value?.ToString();
                         worksheet.Cell(row, 3).Value = gridRow.Cells["email"].Value?.ToString();
                         worksheet.Cell(row, 4).Value = gridRow.Cells["telefone"].Value?.ToString();
+
+                        // Estilo das células
+                        worksheet.Range(row, 1, row, 4).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
+                        worksheet.Range(row, 1, row, 4).Style.Alignment.Vertical = XLAlignmentVerticalValues.Center;
+                        worksheet.Range(row, 1, row, 4).Style.Border.BottomBorder = XLBorderStyleValues.Thin;
+
                         row++;
                     }
                 }
