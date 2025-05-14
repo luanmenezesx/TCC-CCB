@@ -72,7 +72,6 @@ namespace IgrejaMVC.Views
                             }
 
                             Login loginForm = new Login();
-                            loginForm.Show();
                             this.Close();
                         }
                         else

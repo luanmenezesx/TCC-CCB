@@ -112,7 +112,6 @@ namespace IgrejaMVC.Views
 
                                     // Retorna para a tela Home
                                     Home homeForm = new Home();
-                                    homeForm.Show();
 
                                     // Fecha a tela atual
                                     this.Close();
