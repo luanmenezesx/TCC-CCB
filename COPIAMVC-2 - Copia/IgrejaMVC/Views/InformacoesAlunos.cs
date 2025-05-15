@@ -77,7 +77,7 @@ namespace IgrejaMVC.Views
                 MessageBox.Show("Aluno atualizado com sucesso.");
 
                 // Criar a instância da tela Home antes de fechar a atual
-                Home formHome = new Home();
+                Alunos formHome = new Alunos();
 
                 // Esconder a tela atual antes de abrir a nova
                 this.Hide();

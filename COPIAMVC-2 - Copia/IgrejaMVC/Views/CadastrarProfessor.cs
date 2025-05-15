@@ -46,10 +46,35 @@ namespace IgrejaMVC.Views
                 }
             }
 
-            string query = "INSERT INTO Professores (Nome_professor, Senha_professor, perfil_professor) VALUES (@Nome, @Senha, @Perfil)";
-
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
+                // Verifica se já existe um professor com o mesmo nome e senha
+                string checkQuery = "SELECT COUNT(*) FROM Professores WHERE Nome_professor = @Nome AND Senha_professor = @Senha";
+                using (MySqlCommand checkCommand = new MySqlCommand(checkQuery, connection))
+                {
+                    checkCommand.Parameters.AddWithValue("@Nome", nome);
+                    checkCommand.Parameters.AddWithValue("@Senha", senha);
+
+                    try
+                    {
+                        connection.Open();
+                        int count = Convert.ToInt32(checkCommand.ExecuteScalar());
+
+                        if (count > 0)
+                        {
+                            MessageBox.Show("Credenciais já cadastradas");
+                            return;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Erro ao verificar duplicidade: " + ex.Message);
+                        return;
+                    }
+                }
+
+                // Agora faz o INSERT
+                string query = "INSERT INTO Professores (Nome_professor, Senha_professor, perfil_professor) VALUES (@Nome, @Senha, @Perfil)";
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Nome", nome);
@@ -58,7 +83,6 @@ namespace IgrejaMVC.Views
 
                     try
                     {
-                        connection.Open();
                         int result = command.ExecuteNonQuery();
                         if (result > 0)
                         {
@@ -86,11 +110,13 @@ namespace IgrejaMVC.Views
                 }
             }
         }
-        
+
+
 
         private void CadastrarProfessor_Load(object sender, EventArgs e)
         {
             txtSenhaChave.Visible = false; // Campo oculto por padrão
+            cmbPerfil.SelectedItem = "Professor";
 
         }
 
