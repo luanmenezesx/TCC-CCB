@@ -314,8 +314,8 @@ namespace IgrejaMVC.Views
 
         private void button5_Click(object sender, EventArgs e)
         {
-            AlunosAptos form   = new AlunosAptos();
-            form.ShowDialog();
+            AlunosAptos alunosAptos = new AlunosAptos();
+            alunosAptos.Show();
         }
     }
 }

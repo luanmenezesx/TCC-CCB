@@ -153,8 +153,9 @@ namespace IgrejaMVC.Views
         {
             InformacoesAlunos form1 = new InformacoesAlunos();
             form1.Show();
-            this.Close();
+            this.Hide();
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {

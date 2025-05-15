@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IgrejaMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e01a57485f91b4a9ca2401e7910bb9fbbc5ee1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+603daa44d1391d19ce1ef8660e118247d8f500b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("IgrejaMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IgrejaMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

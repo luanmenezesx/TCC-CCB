@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\alunosaptos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunosaptos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\luan\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\cadastrarprofessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,6 +75,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Home.cs",
+              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Home.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAgwD0BAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:38:50.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Home.cs",
+              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Home.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:38:48.797Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlunosAptos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\AlunosAptos.cs",
+              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\AlunosAptos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:27:38.513Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlunosAptos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.Designer.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\AlunosAptos.Designer.cs",
+              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.Designer.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\AlunosAptos.Designer.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAlwAUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:22:23.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlunosAptos.cs",
+              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\AlunosAptos.cs",
+              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\AlunosAptos.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAAJkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:13:34.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "InformacoesAlunos.cs",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesAlunos.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesAlunos.cs",
@@ -75,31 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Alunos.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Alunos.cs",
-              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Alunos.cs",
-              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Alunos.cs [Projeto]",
-              "RelativeToolTip": "IgrejaMVC\\Views\\Alunos.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:51:20.65Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InformacoesAlunos.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesAlunos.cs",
-              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesAlunos.cs",
-              "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesAlunos.cs [Projeto]",
-              "RelativeToolTip": "IgrejaMVC\\Views\\InformacoesAlunos.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:51:10.92Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
               "RelativeDocumentMoniker": "IgrejaMVC\\App.config",
@@ -107,12 +158,11 @@
               "RelativeToolTip": "IgrejaMVC\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-15T02:41:46.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T02:41:46.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CadastrarProfessor.cs",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarProfessor.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\CadastrarProfessor.cs",
@@ -125,39 +175,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CadastrarProfessor.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarProfessor.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\CadastrarProfessor.cs",
               "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarProfessor.cs [Projeto]",
               "RelativeToolTip": "IgrejaMVC\\Views\\CadastrarProfessor.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T01:58:25.739Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-14T01:58:25.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CadastrarInstrumentos.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarInstrumentos.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\CadastrarInstrumentos.cs",
               "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\CadastrarInstrumentos.cs [Projeto]",
               "RelativeToolTip": "IgrejaMVC\\Views\\CadastrarInstrumentos.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T01:58:25.042Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-14T01:58:25.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Login.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Login.cs",
               "ToolTip": "C:\\Users\\Luan\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Login.cs [Projeto]",
               "RelativeToolTip": "IgrejaMVC\\Views\\Login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T00:33:32.242Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-14T00:33:32.242Z"
             }
           ]
         }
