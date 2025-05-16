@@ -14,21 +14,21 @@ namespace IgrejaMVC.Views
 {
     public partial class Hinos : Form
     {
-        private int idAluno; // Variável global
+        private int idAluno; 
 
         public Hinos(int idAlunoRecebido)
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.idAluno = idAlunoRecebido; // Armazena o ID do aluno na variável global
-            gridHinos.SelectionMode = DataGridViewSelectionMode.FullRowSelect; // Seleciona a linha inteira
+            this.idAluno = idAlunoRecebido;
+            gridHinos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
         }
 
         private void Hinos_Load(object sender, EventArgs e)
         {
             Models.Hinos hino = new Models.Hinos();
-            gridHinos.DataSource = hino.MostrarHinos(idAluno); // Usa a variável global correta
+            gridHinos.DataSource = hino.MostrarHinos(idAluno);
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -61,11 +61,10 @@ namespace IgrejaMVC.Views
             }
 
             Models.Hinos hinoModel = new Models.Hinos();
-            string resultado = hinoModel.SalvarHinoParaAluno(idAluno, numeroHino); // Agora usa a variável global `idAluno`
+            string resultado = hinoModel.SalvarHinoParaAluno(idAluno, numeroHino); 
 
             MessageBox.Show(resultado);
 
-            // Atualiza o grid após tentar salvar
             gridHinos.DataSource = hinoModel.MostrarHinos(idAluno);
 
             txtNumeroHino.Clear();
@@ -80,8 +79,8 @@ namespace IgrejaMVC.Views
         private void btnPesquisarHino_Click(object sender, EventArgs e)
         {
 
-            BancoDados banco = new BancoDados();  // Instancia a classe de banco
-            string nome = txtPesquisarHino.Text;       // Pega o nome digitado no campo de pesquisa
+            BancoDados banco = new BancoDados(); 
+            string nome = txtPesquisarHino.Text;       
 
             gridHinos.DataSource = banco.PesquisarHinos(idAluno, nome);
         }
@@ -116,10 +115,6 @@ namespace IgrejaMVC.Views
             }
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
         public string Professor { get; set; }
         public string Perfil { get; set; }
         private void btnProfessores_Click(object sender, EventArgs e)
@@ -148,12 +143,10 @@ namespace IgrejaMVC.Views
             {
                 var worksheet = workbook.Worksheets.Add("Hinos do Aluno");
 
-                // Cabeçalhos
                 worksheet.Cell(1, 1).Value = "Número";
                 worksheet.Cell(1, 2).Value = "Nome";
                 worksheet.Cell(1, 3).Value = "Data de Passagem";
 
-                // Estiliza os cabeçalhos
                 var header = worksheet.Range("A1:C1");
                 header.Style.Font.Bold = true;
                 header.Style.Fill.BackgroundColor = ClosedXML.Excel.XLColor.LightSteelBlue;
@@ -173,10 +166,8 @@ namespace IgrejaMVC.Views
                     }
                 }
 
-                // Ajuste automático das colunas
                 worksheet.Columns().AdjustToContents();
 
-                // Caminho para salvar o arquivo
                 string caminho = System.IO.Path.Combine(
                     Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
                     "Downloads",

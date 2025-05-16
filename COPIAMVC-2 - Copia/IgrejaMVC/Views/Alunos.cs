@@ -107,8 +107,9 @@ namespace IgrejaMVC.Views
                     formInfo.pictureBox1.Image = null; // Caso não haja imagem
                 }
 
-                // Exibe o formulário de informações
-                formInfo.ShowDialog();
+                // Abre a tela de Informações e fecha esta
+                formInfo.Show();
+                this.Close();
             }
             else
             {
@@ -156,6 +157,7 @@ namespace IgrejaMVC.Views
                 // Passa o ID do aluno para o formulário Hinos
                 Hinos form = new Hinos(idAluno);
                 form.ShowDialog();
+                this.Close();
             }
             else
             {

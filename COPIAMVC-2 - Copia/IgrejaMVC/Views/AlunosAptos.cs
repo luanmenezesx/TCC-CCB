@@ -99,7 +99,8 @@ namespace IgrejaMVC.Views
 
                 // Abre a tela de hinos do aluno
                 Hinos telaHinos = new Hinos(idAluno);
-                telaHinos.ShowDialog();
+                telaHinos.Show();
+                this.Close();
             }
         }
 
@@ -125,6 +126,7 @@ namespace IgrejaMVC.Views
                 // Abre a tela de hinos do aluno
                 Hinos telaHinos = new Hinos(idAluno);
                 telaHinos.ShowDialog();
+                this.Close();   
             }
         }
 
@@ -140,6 +142,7 @@ namespace IgrejaMVC.Views
                 // Abre a tela de hinos do aluno
                 Hinos telaHinos = new Hinos(idAluno);
                 telaHinos.ShowDialog();
+                this.Close();
             }
         }
 
