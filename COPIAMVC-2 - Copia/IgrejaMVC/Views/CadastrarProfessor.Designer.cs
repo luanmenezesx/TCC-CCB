@@ -192,6 +192,7 @@
             // 
             // cmbPerfil
             // 
+            cmbPerfil.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbPerfil.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbPerfil.FormattingEnabled = true;
             cmbPerfil.Items.AddRange(new object[] { "Administrador", "Professor" });

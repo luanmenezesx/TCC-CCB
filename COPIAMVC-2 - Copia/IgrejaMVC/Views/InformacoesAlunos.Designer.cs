@@ -103,6 +103,7 @@
             // 
             // txtEstadoCivil
             // 
+            txtEstadoCivil.DropDownStyle = ComboBoxStyle.DropDownList;
             txtEstadoCivil.Font = new Font("Century Gothic", 12F);
             txtEstadoCivil.FormattingEnabled = true;
             txtEstadoCivil.Items.AddRange(new object[] { "Casado", "Solteiro", "Divorciado", "Viúvo" });
@@ -140,6 +141,7 @@
             // txtInstrumento
             // 
             txtInstrumento.DisplayMember = "nome\u001f_instrumento";
+            txtInstrumento.DropDownStyle = ComboBoxStyle.DropDownList;
             txtInstrumento.Font = new Font("Century Gothic", 12F);
             txtInstrumento.FormattingEnabled = true;
             txtInstrumento.Location = new Point(986, 334);
@@ -170,6 +172,7 @@
             // 
             // txtEstado
             // 
+            txtEstado.DropDownStyle = ComboBoxStyle.DropDownList;
             txtEstado.Font = new Font("Century Gothic", 12F);
             txtEstado.FormattingEnabled = true;
             txtEstado.Items.AddRange(new object[] { "SP" });
@@ -192,6 +195,7 @@
             // 
             // txtCidade
             // 
+            txtCidade.DropDownStyle = ComboBoxStyle.DropDownList;
             txtCidade.Font = new Font("Century Gothic", 12F);
             txtCidade.FormattingEnabled = true;
             txtCidade.Items.AddRange(new object[] { "Santos" });
@@ -214,6 +218,7 @@
             // 
             // txtBairro
             // 
+            txtBairro.DropDownStyle = ComboBoxStyle.DropDownList;
             txtBairro.Font = new Font("Century Gothic", 12F);
             txtBairro.FormattingEnabled = true;
             txtBairro.Items.AddRange(new object[] { "Vila Progresso", "Santa Maria", "Vila Vitória", "São Bento", "Nova Cintra ", "Marapé" });

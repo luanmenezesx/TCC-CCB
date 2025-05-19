@@ -314,6 +314,7 @@
             // 
             // cmbAnos
             // 
+            cmbAnos.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbAnos.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbAnos.FormattingEnabled = true;
             cmbAnos.Location = new Point(942, 279);
@@ -336,6 +337,7 @@
             // 
             // cmbFiltraGraph
             // 
+            cmbFiltraGraph.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbFiltraGraph.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbFiltraGraph.FormattingEnabled = true;
             cmbFiltraGraph.Location = new Point(712, 214);
