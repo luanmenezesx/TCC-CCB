@@ -55,6 +55,7 @@
             cmbFiltraGraph = new ComboBox();
             label4 = new Label();
             button5 = new Button();
+            cartesianChart3 = new LiveChartsCore.SkiaSharpView.WinForms.CartesianChart();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -337,9 +338,9 @@
             // 
             cmbFiltraGraph.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbFiltraGraph.FormattingEnabled = true;
-            cmbFiltraGraph.Location = new Point(739, 215);
+            cmbFiltraGraph.Location = new Point(712, 214);
             cmbFiltraGraph.Name = "cmbFiltraGraph";
-            cmbFiltraGraph.Size = new Size(184, 29);
+            cmbFiltraGraph.Size = new Size(223, 29);
             cmbFiltraGraph.TabIndex = 127;
             cmbFiltraGraph.SelectedIndexChanged += cmbFiltraGraph_SelectedIndexChanged;
             // 
@@ -350,9 +351,9 @@
             label4.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.Location = new Point(460, 705);
             label4.Name = "label4";
-            label4.Size = new Size(708, 21);
+            label4.Size = new Size(696, 21);
             label4.TabIndex = 128;
-            label4.Text = "*Clique no gráfico de Hinos Por Alunos, caso queira ver os alunos aptos para realizar testes.";
+            label4.Text = "*Clique no botão \"Ver Alunos Aptos\", caso queira ver os alunos aptos para realizar testes.";
             // 
             // button5
             // 
@@ -365,11 +366,23 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // cartesianChart3
+            // 
+            cartesianChart3.BackColor = Color.Lavender;
+            cartesianChart3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cartesianChart3.Location = new Point(517, 279);
+            cartesianChart3.Margin = new Padding(4);
+            cartesianChart3.MatchAxesScreenDataRatio = false;
+            cartesianChart3.Name = "cartesianChart3";
+            cartesianChart3.Size = new Size(418, 333);
+            cartesianChart3.TabIndex = 130;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(cartesianChart3);
             Controls.Add(button5);
             Controls.Add(label4);
             Controls.Add(cmbFiltraGraph);
@@ -424,6 +437,7 @@
         private ComboBox cmbFiltraGraph;
         private Label label4;
         private Button button5;
+        private LiveChartsCore.SkiaSharpView.WinForms.CartesianChart cartesianChart3;
         //        private HinoPorMes hinoPorMes1;
     }
 }

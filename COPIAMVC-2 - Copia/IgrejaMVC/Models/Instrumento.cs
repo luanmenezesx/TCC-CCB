@@ -8,7 +8,6 @@ namespace IgrejaMVC.Models
 {
     internal class Instrumento
     {
-        public int Id { get; set; }
         public string NomeInstrumento { get; set; }
         public int QuantidadeMaxima { get; set; }
 

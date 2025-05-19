@@ -17,22 +17,6 @@ namespace IgrejaMVC.Models
     {
         public static string connectionString = ConfigurationManager.AppSettings["conexao"];
             
-
-        public MySqlConnection GetConnection()
-        {
-            try
-            {
-                MySqlConnection connection = new MySqlConnection(connectionString);
-                connection.Open();
-                Console.WriteLine("Conexão bem-sucedida!");
-                return connection;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Erro ao conectar ao banco de dados: " + ex.Message);
-                return null;
-            }
-        }
         public static bool VerificaProfessor(string nome, string senha)
         {
             string sql = "SELECT COUNT(*) FROM professores WHERE nome_professor = @nome AND senha_professor = @senha;";
@@ -322,7 +306,33 @@ namespace IgrejaMVC.Models
             }
         }
 
-        
+
+        public static DataTable PesquisarQuantidadePorInstrumento()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                string sql = @"
+            SELECT 
+                i.nome_instrumento AS Instrumento,
+                COUNT(a.id) AS Quantidade
+            FROM instrumentos i
+            LEFT JOIN alunos a ON i.id = a.id_instrumento
+            GROUP BY i.nome_instrumento
+            ORDER BY Quantidade DESC;";
+
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                conn.Open();
+                adapter.Fill(dt);
+                conn.Close();
+
+                return dt;
+            }
+        }
+
+
 
         public static DataTable PesquisarInstrumentoTotal()
         {

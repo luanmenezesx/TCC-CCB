@@ -28,7 +28,6 @@ namespace IgrejaMVC.Views
                 cmbAnos.Items.Add(ano);
             }
             cmbAnos.SelectedItem = 2025;
-            //Fim da Função
 
             var viewModel = new ViewModel();
 
@@ -36,12 +35,9 @@ namespace IgrejaMVC.Views
             {
             new LineSeries<double>
             {
-                // Valores do gráfico: ajuste conforme os seus dados
                 Values = new double[] { 2, 1, 3, 5, 3, 4, 6 },
-                // Define "Fill" como null para não pintar a área sob a linha
                 Fill = null,
 
-                // Você pode configurar outras propriedades, como Stroke, PointGeometry, etc.
             }
             };
 
@@ -59,14 +55,14 @@ namespace IgrejaMVC.Views
 
             AtualizarGraficoPorAno(2025);
 
-
             cmbFiltraGraph.Items.Add("Hinos por Mês");
             cmbFiltraGraph.Items.Add("Hinos por Aluno");
-            cmbFiltraGraph.SelectedIndex = 0; // para mostrar o primeiro por padrão
+            cmbFiltraGraph.Items.Add("Alunos por Instrumento");
+
+            cmbFiltraGraph.SelectedIndex = 0; 
             FiltrarGrafico();
 
 
-            // grafico hinos por mes
             ViewModel viewModel = new ViewModel();
 
             DataTable dados = BancoDados.PesquisarHinosporMes(2025);
@@ -83,11 +79,10 @@ namespace IgrejaMVC.Views
 
             ColumnSeries<double> s1 = new ColumnSeries<double>
             {
-                Values = db1, //new double[] { 5, 3, 7, 2, 6, 4 },
+                Values = db1, 
                 Name = "Hinos por Mês"
             };
 
-            // Adiciona a série ao ViewModel
             viewModel.Series.Add(s1);
 
             Axis eixo1 = new Axis();
@@ -102,7 +97,6 @@ namespace IgrejaMVC.Views
             cartesianChart1.YAxes = viewModel.YAxes;
 
             cartesianChart1.LegendPosition = LiveChartsCore.Measure.LegendPosition.Top;
-            //cartesianChart1.Location = new System.Drawing.Point(0, 0);
             cartesianChart1.Size = new System.Drawing.Size(600, 300);
 
 
@@ -112,7 +106,52 @@ namespace IgrejaMVC.Views
         // fim hinos por mes.
 
 
+        private void AtualizarGraficoInstrumentos()
+        {
+            ViewModel viewModel = new ViewModel();
 
+            DataTable dados = BancoDados.PesquisarQuantidadePorInstrumento();
+            DataTableReader dr = dados.CreateDataReader();
+
+            List<double> valores = new List<double>();
+            List<string> nomes = new List<string>();
+
+            while (dr.Read())
+            {
+                valores.Add(double.Parse(dr["Quantidade"].ToString()));
+                nomes.Add(dr["Instrumento"].ToString());
+            }
+
+            ColumnSeries<double> series = new ColumnSeries<double>
+            {
+                Values = valores,
+                Name = "Alunos por Instrumento"
+            };
+
+            viewModel.Series.Add(series);
+
+            Axis eixoX = new Axis
+            {
+                Name = "Instrumento",
+                Labels = nomes,
+                LabelsRotation = 0
+            };
+
+            Axis eixoY = new Axis
+            {
+                Name = "Qtde Alunos",
+                MinLimit = 0
+            };
+
+            viewModel.XAxes = new Axis[] { eixoX };
+            viewModel.YAxes = new Axis[] { eixoY };
+
+            cartesianChart3.Series = viewModel.Series;
+            cartesianChart3.XAxes = viewModel.XAxes;
+            cartesianChart3.YAxes = viewModel.YAxes;
+            cartesianChart3.LegendPosition = LiveChartsCore.Measure.LegendPosition.Top;
+            cartesianChart3.Size = new System.Drawing.Size(600, 300);
+        }
 
 
 
@@ -304,13 +343,24 @@ namespace IgrejaMVC.Views
             {
                 cartesianChart1.Visible = true;
                 cartesianChart2.Visible = false;
+                cartesianChart3.Visible = false;
             }
             else if (selecionado == "Hinos por Aluno")
             {
                 cartesianChart1.Visible = false;
                 cartesianChart2.Visible = true;
+                cartesianChart3.Visible = false;
+            }
+            else if (selecionado == "Alunos por Instrumento")
+            {
+                cartesianChart1.Visible = false;
+                cartesianChart2.Visible = false;
+                cartesianChart3.Visible = true;
+
+                AtualizarGraficoInstrumentos(); // Atualiza o gráfico quando selecionado
             }
         }
+
 
         private void button5_Click(object sender, EventArgs e)
         {

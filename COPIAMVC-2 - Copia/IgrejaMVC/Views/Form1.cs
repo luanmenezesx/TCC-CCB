@@ -183,10 +183,7 @@ namespace IgrejaMVC
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+      
         public string Professor { get; set; }
         public string Perfil { get; set; }
         private void btnProfessores_Click(object sender, EventArgs e)
