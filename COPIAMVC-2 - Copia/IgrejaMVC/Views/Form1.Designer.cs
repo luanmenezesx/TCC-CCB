@@ -129,7 +129,7 @@
             btnProfessores.Name = "btnProfessores";
             btnProfessores.Size = new Size(281, 55);
             btnProfessores.TabIndex = 121;
-            btnProfessores.Text = "Professores";
+            btnProfessores.Text = "Docentes";
             btnProfessores.UseVisualStyleBackColor = false;
             btnProfessores.Click += btnProfessores_Click;
             // 

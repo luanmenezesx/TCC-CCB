@@ -155,7 +155,7 @@
             btnProfessores.Name = "btnProfessores";
             btnProfessores.Size = new Size(281, 55);
             btnProfessores.TabIndex = 20;
-            btnProfessores.Text = "Professores";
+            btnProfessores.Text = "Docentes";
             btnProfessores.UseVisualStyleBackColor = false;
             // 
             // pictureBox5
@@ -333,9 +333,9 @@
             label2.ForeColor = Color.SteelBlue;
             label2.Location = new Point(505, 116);
             label2.Name = "label2";
-            label2.Size = new Size(622, 49);
+            label2.Size = new Size(541, 49);
             label2.TabIndex = 82;
-            label2.Text = "CONSULTA PROFESSORES";
+            label2.Text = "CONSULTA DOCENTES";
             // 
             // btnExcluirProfessor
             // 

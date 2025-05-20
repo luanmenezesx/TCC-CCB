@@ -32,8 +32,9 @@ namespace IgrejaMVC.Views
 
         private void btnPesquisarProfessores_Click(object sender, EventArgs e)
         {
-            BancoDados banco = new BancoDados();  // Instancia a classe de banco
-            string nome = txtPesqProfessores.Text;       // Pega o nome digitado no campo de pesquisa
+            BancoDados banco = new BancoDados();  
+            string nome = txtPesqProfessores.Text;
+            CarregarProfessores();
 
             gridProfessores.DataSource = banco.PesquisarProfessor(nome);
         }
@@ -110,11 +111,9 @@ namespace IgrejaMVC.Views
                                 {
                                     MessageBox.Show("Professor excluído com sucesso!");
 
-                                    // Retorna para a tela Home
                                     Home homeForm = new Home();
 
-                                    // Fecha a tela atual
-                                    this.Close();
+                                    CarregarProfessores();
                                 }
                                 else
                                 {
@@ -234,6 +233,15 @@ namespace IgrejaMVC.Views
                     "Relatório Gerado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void CarregarProfessores()
+        {
+            BancoDados banco = new BancoDados();
+            string nome = txtPesqProfessores.Text; // Pesquisa atual
+            gridProfessores.DataSource = banco.PesquisarProfessor(nome);
+        }
+
     }
   
+
 }

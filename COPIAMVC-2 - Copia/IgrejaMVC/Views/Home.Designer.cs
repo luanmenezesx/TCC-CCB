@@ -153,7 +153,7 @@
             button4.Name = "button4";
             button4.Size = new Size(281, 55);
             button4.TabIndex = 20;
-            button4.Text = "Professores";
+            button4.Text = "Docentes";
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click_1;
             // 
