@@ -37,12 +37,9 @@ namespace IgrejaMVC.Views
 
             // Adiciona o manipulador para ajustar as colunas assim que os dados forem carregados
             gridAluno.DataBindingComplete += gridAluno_DataBindingComplete;
+            CarregarAlunos();
         }
 
-        /// <summary>
-        /// Evento disparado após o grid completar a vinculação dos dados.
-        /// Oculta todas as colunas exceto "nome", "cpf", "email" e "telefone".
-        /// </summary>
         private void gridAluno_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
             foreach (DataGridViewColumn coluna in gridAluno.Columns)
@@ -205,13 +202,7 @@ namespace IgrejaMVC.Views
                     if (sucesso)
                     {
                         MessageBox.Show("Aluno excluído com sucesso!");
-
-                        // Abre a tela Home
-                        Home homeForm = new Home();
-                        homeForm.Show();
-
-                        // Fecha a tela atual
-                        this.Close();
+                        CarregarAlunos();
                     }
                     else
                     {
@@ -290,6 +281,13 @@ namespace IgrejaMVC.Views
 
                 MessageBox.Show($"Relatório salvo com sucesso em {downloadsPath}!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void CarregarAlunos()
+        {
+            BancoDados banco = new BancoDados();
+            string nome = txtPesqAlunos.Text;
+            gridAluno.DataSource = banco.PesquisarAluno(nome);
         }
 
     }

@@ -157,7 +157,7 @@ INSERT INTO hinos (numero_hino, nome_hino) VALUES
 (100, 'Sempre Fiel é o Senhor');
 
 
-
+-- HINO PARA ALUNO DE ID 1--
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 1, '2025-01-01');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 2, '2025-01-02');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 3, '2025-01-03');
@@ -183,3 +183,58 @@ INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 22, '2025-0
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 23, '2025-01-23');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 24, '2025-01-24');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 25, '2025-01-25');
+
+-- HINO PARA ALUNO DE ID 2--
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 1, '2025-01-01');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 2, '2025-01-02');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 3, '2025-01-03');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 4, '2025-01-04');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 5, '2025-01-05');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 6, '2025-01-06');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 7, '2025-01-07');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 8, '2025-01-08');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 9, '2025-01-09');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 10, '2025-01-10');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 11, '2025-01-11');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 12, '2025-01-12');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 13, '2025-01-13');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 14, '2025-01-14');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 15, '2025-01-15');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 16, '2025-01-16');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 17, '2025-01-17');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 18, '2025-01-18');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 19, '2025-01-19');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 20, '2025-01-20');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 21, '2025-01-21');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 22, '2025-01-22');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 23, '2025-01-23');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 24, '2025-01-24');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 25, '2025-01-25');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 26, '2025-01-26');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 27, '2025-01-27');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 28, '2025-01-28');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 29, '2025-01-29');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 30, '2025-01-30');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 31, '2025-01-31');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 32, '2025-02-01');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 33, '2025-02-02');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 34, '2025-02-03');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 35, '2025-02-04');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 36, '2025-02-05');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 37, '2025-02-06');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 38, '2025-02-07');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 39, '2025-02-08');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 40, '2025-02-09');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 41, '2025-02-10');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 42, '2025-02-11');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 43, '2025-02-12');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 44, '2025-02-13');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 45, '2025-02-14');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 46, '2025-02-15');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 47, '2025-02-16');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 48, '2025-02-17');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 49, '2025-02-18');
+INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 50, '2025-02-19');
+
+
+
