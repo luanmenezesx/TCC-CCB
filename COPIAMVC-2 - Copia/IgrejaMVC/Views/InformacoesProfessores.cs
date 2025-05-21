@@ -72,20 +72,24 @@ namespace IgrejaMVC.Views
 
         private void btnExcluirProfessor_Click(object sender, EventArgs e)
         {
-
-
             if (gridProfessores.SelectedRows.Count > 0) // Verifica se há uma linha selecionada
             {
                 var row = gridProfessores.SelectedRows[0];
                 int idProfessor = Convert.ToInt32(row.Cells["id_professor"].Value);
 
-                if (row.Cells["nome"].Value.Equals(lblUsuario.Text))
+                string nomeSelecionado = row.Cells["nome"].Value.ToString();
+                string perfilSelecionado = row.Cells["perfil"].Value.ToString();
+
+                string nomeLogado = lblUsuario.Text;
+                string perfilLogado = lblPerfil.Text;
+
+                // Impede que o usuário exclua ele mesmo com o mesmo perfil
+                if (nomeSelecionado.Equals(nomeLogado) && perfilSelecionado.Equals(perfilLogado))
                 {
-                    MessageBox.Show("Operação Inválida!", "Inválido", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Operação Inválida! Você não pode excluir seu próprio usuário com o mesmo perfil.",
+                                    "Inválido", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return;
                 }
-
-
 
                 var confirmResult = MessageBox.Show($"Tem certeza que deseja excluir o professor com ID {idProfessor}?",
                                                     "Confirmação de Exclusão",
@@ -110,9 +114,6 @@ namespace IgrejaMVC.Views
                                 if (result > 0)
                                 {
                                     MessageBox.Show("Professor excluído com sucesso!");
-
-                                    Home homeForm = new Home();
-
                                     CarregarProfessores();
                                 }
                                 else
@@ -136,6 +137,7 @@ namespace IgrejaMVC.Views
                                 MessageBoxIcon.Warning);
             }
         }
+
 
         private void btnInstrumento_Click(object sender, EventArgs e)
         {
