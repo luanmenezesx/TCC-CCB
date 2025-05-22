@@ -290,10 +290,11 @@ namespace IgrejaMVC.Models
                 nome_instrumento AS 'nome instrumento', 
                 quantidade_maxima AS 'quantidade máxima'
             FROM instrumentos 
-            WHERE nome_instrumento LIKE @nome";
+            WHERE nome_instrumento LIKE @nome
+            ORDER BY quantidade_maxima DESC"; // Ordena do maior para o menor
 
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.AddWithValue("@nome", nome + "%"); // Busca por nomes que começam com a sequência informada
+                cmd.Parameters.AddWithValue("@nome", nome + "%");
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
