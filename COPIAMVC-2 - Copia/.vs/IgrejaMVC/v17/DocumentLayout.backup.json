@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\alunosaptos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesprofessores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +47,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
-              "RelativeDocumentMoniker": "IgrejaMVC\\App.config",
-              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
-              "RelativeToolTip": "IgrejaMVC\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-19T22:12:18.109Z",
+              "Title": "AlunosAptos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\AlunosAptos.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\AlunosAptos.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\AlunosAptos.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAawJwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:40:13.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InformacoesProfessores.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAuwPIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:37:17.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InformacoesProfessores.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesProfessores.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesProfessores.cs [Projeto]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\InformacoesProfessores.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:38:05.83Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Home.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Home.cs",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Home.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAwNgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:37:43.559Z",
               "EditorCaption": ""
             }
           ]

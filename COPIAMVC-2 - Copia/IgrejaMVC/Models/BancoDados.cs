@@ -89,8 +89,19 @@ namespace IgrejaMVC.Models
         {
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                string sql = @"SELECT id_professor AS 'id_professor', nome_professor AS 'Nome',  perfil_professor AS 'Perfil' 
-               FROM professores WHERE nome_professor LIKE @nome";
+                string sql = @"
+            SELECT 
+                id_professor AS 'id_professor', 
+                nome_professor AS 'Nome',  
+                perfil_professor AS 'Perfil' 
+            FROM professores 
+            WHERE nome_professor LIKE @nome
+            ORDER BY 
+                CASE 
+                    WHEN perfil_professor = 'Administrador' THEN 0 
+                    ELSE 1 
+                END,
+                nome_professor";
 
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@nome", "%" + nome + "%");
