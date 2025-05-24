@@ -21,14 +21,18 @@ namespace IgrejaMVC
         {
             try
             {
-                // Verifica se a foto foi carregada
+                if (!BancoDados.ValidarCPF(txtCPF.Text))
+                {
+                    MessageBox.Show("CPF inválido. Verifique e tente novamente.", "CPF Inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (string.IsNullOrEmpty(caminhoFoto))
                 {
                     MessageBox.Show("Por favor, preencha todos os campos antes de salvar.", "Campos Obrigatórios", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Criação do novo aluno com os valores dos campos
                 Aluno novoAluno = new Aluno
                 {
                     Nome = txtNome.Text,
@@ -66,6 +70,7 @@ namespace IgrejaMVC
                 MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
 
         private void LimparCampos()
