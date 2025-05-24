@@ -11,7 +11,8 @@
           "ClosedXML": "0.104.2",
           "LiveChartsCore.SkiaSharpView.WinForms": "2.0.0-rc5.4",
           "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
-          "MySql.Data": "9.2.0"
+          "MySql.Data": "9.2.0",
+          "RestSharp": "112.1.0"
         },
         "runtime": {
           "IgrejaMVC.dll": {}
@@ -273,6 +274,14 @@
           "lib/net8.0/RBush.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "RestSharp/112.1.0": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
           }
         }
       },
@@ -652,6 +661,13 @@
       "sha512": "sha512-j3GeRxxLUQdc+UrZnvythdQxi3bd8ayn87VDjfGXrvfodF550n9wR6SgQvpo+YiAv3GJezsu6lK0l47rRqnbdg==",
       "path": "rbush/4.0.0",
       "hashPath": "rbush.4.0.0.nupkg.sha512"
+    },
+    "RestSharp/112.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "path": "restsharp/112.1.0",
+      "hashPath": "restsharp.112.1.0.nupkg.sha512"
     },
     "SixLabors.Fonts/1.0.0": {
       "type": "package",

@@ -1,4 +1,5 @@
 ﻿using IgrejaMVC.Models;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -108,7 +109,10 @@ namespace IgrejaMVC.Views
 
         private void txtCEP_TextChanged(object sender, EventArgs e)
         {
-            txtCEP.MaxLength = 8;
+            if (txtCEP.Text.Length == 8) // Sem traço, só números
+            {
+                BuscarCep(txtCEP.Text);
+            }
         }
 
         private void txtCPF_TextChanged(object sender, EventArgs e)
@@ -158,5 +162,43 @@ namespace IgrejaMVC.Views
         private void pictureBox1_Click(object sender, EventArgs e) { }
         private void txtInstrumento_SelectedIndexChanged(object sender, EventArgs e) { }
         private void txtDtCadastro_ValueChanged(object sender, EventArgs e) { }
+
+
+        private void BuscarCep(string cep)
+        {
+            try
+            {
+                string url = $"https://viacep.com.br/ws/{cep}/json/";
+
+                var client = new RestSharp.RestClient(url);
+                var request = new RestSharp.RestRequest("", Method.Get);
+                var response = client.Execute(request);
+
+                if (!response.IsSuccessful)
+                {
+                    MessageBox.Show("Erro ao consultar o CEP.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var endereco = System.Text.Json.JsonSerializer.Deserialize<CepEndereco>(response.Content);
+
+                if (endereco != null && endereco.cep != null)
+                {
+                    txtEndereco.Text = endereco.logradouro;
+                    txtBairro.Text = endereco.bairro;
+                    txtCidade.Text = endereco.localidade;
+                    txtEstado.Text = endereco.uf;
+                }
+                else
+                {
+                    MessageBox.Show("CEP não encontrado.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 }

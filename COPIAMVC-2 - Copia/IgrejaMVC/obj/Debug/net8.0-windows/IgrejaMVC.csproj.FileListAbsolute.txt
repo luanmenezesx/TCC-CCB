@@ -808,3 +808,4 @@ C:\Users\admin\Documents\TCC-CCB\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-w
 C:\Users\admin\Documents\TCC-CCB\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.pdb
 C:\Users\admin\Documents\TCC-CCB\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\IgrejaMVC.genruntimeconfig.cache
 C:\Users\admin\Documents\TCC-CCB\COPIAMVC-2 - Copia\IgrejaMVC\obj\Debug\net8.0-windows\ref\IgrejaMVC.dll
+C:\Users\Luan\Documents\TCC-CCB\COPIAMVC-2 - Copia\IgrejaMVC\bin\Debug\net8.0-windows\RestSharp.dll

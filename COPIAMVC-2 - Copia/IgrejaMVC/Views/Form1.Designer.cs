@@ -44,11 +44,8 @@
             txtInstrumento = new ComboBox();
             txtDtNascimento = new DateTimePicker();
             txtDtInicio = new DateTimePicker();
-            txtEstado = new ComboBox();
             label14 = new Label();
-            txtCidade = new ComboBox();
             label13 = new Label();
-            txtBairro = new ComboBox();
             label12 = new Label();
             txtEndereco = new TextBox();
             label11 = new Label();
@@ -75,6 +72,9 @@
             pictureBox1 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox9 = new PictureBox();
+            txtBairroA = new TextBox();
+            txtCidade = new TextBox();
+            txtEstado = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -274,17 +274,6 @@
             txtDtInicio.Size = new Size(122, 27);
             txtDtInicio.TabIndex = 68;
             // 
-            // txtEstado
-            // 
-            txtEstado.DropDownStyle = ComboBoxStyle.DropDownList;
-            txtEstado.Font = new Font("Century Gothic", 12F);
-            txtEstado.FormattingEnabled = true;
-            txtEstado.Items.AddRange(new object[] { "SP" });
-            txtEstado.Location = new Point(1093, 540);
-            txtEstado.Name = "txtEstado";
-            txtEstado.Size = new Size(94, 29);
-            txtEstado.TabIndex = 67;
-            // 
             // label14
             // 
             label14.AutoSize = true;
@@ -297,17 +286,6 @@
             label14.TabIndex = 66;
             label14.Text = "Estado";
             // 
-            // txtCidade
-            // 
-            txtCidade.DropDownStyle = ComboBoxStyle.DropDownList;
-            txtCidade.Font = new Font("Century Gothic", 12F);
-            txtCidade.FormattingEnabled = true;
-            txtCidade.Items.AddRange(new object[] { "Santos" });
-            txtCidade.Location = new Point(923, 540);
-            txtCidade.Name = "txtCidade";
-            txtCidade.Size = new Size(142, 29);
-            txtCidade.TabIndex = 65;
-            // 
             // label13
             // 
             label13.AutoSize = true;
@@ -319,17 +297,6 @@
             label13.Size = new Size(69, 21);
             label13.TabIndex = 64;
             label13.Text = "Cidade";
-            // 
-            // txtBairro
-            // 
-            txtBairro.DropDownStyle = ComboBoxStyle.DropDownList;
-            txtBairro.Font = new Font("Century Gothic", 12F);
-            txtBairro.FormattingEnabled = true;
-            txtBairro.Items.AddRange(new object[] { "Vila Progresso", "Santa Maria", "Vila Vitória", "São Bento", "Nova Cintra ", "Marapé" });
-            txtBairro.Location = new Point(736, 540);
-            txtBairro.Name = "txtBairro";
-            txtBairro.Size = new Size(168, 29);
-            txtBairro.TabIndex = 63;
             // 
             // label12
             // 
@@ -614,11 +581,38 @@
             pictureBox9.TabStop = false;
             pictureBox9.Click += pictureBox9_Click;
             // 
+            // txtBairroA
+            // 
+            txtBairroA.Font = new Font("Century Gothic", 12F);
+            txtBairroA.Location = new Point(736, 542);
+            txtBairroA.Name = "txtBairroA";
+            txtBairroA.Size = new Size(154, 27);
+            txtBairroA.TabIndex = 123;
+            // 
+            // txtCidade
+            // 
+            txtCidade.Font = new Font("Century Gothic", 12F);
+            txtCidade.Location = new Point(923, 542);
+            txtCidade.Name = "txtCidade";
+            txtCidade.Size = new Size(121, 27);
+            txtCidade.TabIndex = 125;
+            // 
+            // txtEstado
+            // 
+            txtEstado.Font = new Font("Century Gothic", 12F);
+            txtEstado.Location = new Point(1093, 542);
+            txtEstado.Name = "txtEstado";
+            txtEstado.Size = new Size(94, 27);
+            txtEstado.TabIndex = 126;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1370, 749);
+            Controls.Add(txtEstado);
+            Controls.Add(txtCidade);
+            Controls.Add(txtBairroA);
             Controls.Add(pictureBox9);
             Controls.Add(pictureBox3);
             Controls.Add(btnSalvar);
@@ -628,11 +622,8 @@
             Controls.Add(txtInstrumento);
             Controls.Add(txtDtNascimento);
             Controls.Add(txtDtInicio);
-            Controls.Add(txtEstado);
             Controls.Add(label14);
-            Controls.Add(txtCidade);
             Controls.Add(label13);
-            Controls.Add(txtBairro);
             Controls.Add(label12);
             Controls.Add(txtEndereco);
             Controls.Add(label11);
@@ -684,11 +675,8 @@
         private ComboBox txtInstrumento;
         private DateTimePicker txtDtNascimento;
         private DateTimePicker txtDtInicio;
-        private ComboBox txtEstado;
         private Label label14;
-        private ComboBox txtCidade;
         private Label label13;
-        private ComboBox txtBairro;
         private Label label12;
         private TextBox txtEndereco;
         private Label label11;
@@ -719,5 +707,8 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private PictureBox pictureBox9;
+        private TextBox txtBairroA;
+        public TextBox txtCidade;
+        public TextBox txtEstado;
     }
 }

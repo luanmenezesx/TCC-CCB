@@ -1,6 +1,10 @@
 using System.Data;
+using System.Text.Json;
 using IgrejaMVC.Models;
 using IgrejaMVC.Views;
+using Org.BouncyCastle.Asn1.Crmf;
+using RestSharp;
+
 
 namespace IgrejaMVC
 {
@@ -36,7 +40,7 @@ namespace IgrejaMVC
                     CEP = txtCEP.Text,
                     Endereco = txtEndereco.Text,
                     Numero = txtNumero.Text,
-                    Bairro = txtBairro.Text,
+                    Bairro = txtBairroA.Text,
                     Cidade = txtCidade.Text,
                     Estado = txtEstado.Text,
                     EstadoCivil = txtEstadoCivil.Text,
@@ -75,7 +79,7 @@ namespace IgrejaMVC
             txtCEP.Text = string.Empty;
             txtEndereco.Text = string.Empty;
             txtNumero.Text = string.Empty;
-            txtBairro.Text = string.Empty;
+            txtBairroA.Text = string.Empty;
             txtCidade.Text = string.Empty;
             txtEstado.Text = string.Empty;
             txtEstadoCivil.Text = string.Empty;
@@ -127,7 +131,7 @@ namespace IgrejaMVC
 
         private void txtCPF_TextChanged(object sender, EventArgs e)
         {
-            txtCPF.MaxLength = 11; // Define o limite máximo de 14 caracteres
+            txtCPF.MaxLength = 11; // Define o limite máximo de 14 caractere
         }
 
         private void txtTelefone_TextChanged(object sender, EventArgs e)
@@ -137,8 +141,10 @@ namespace IgrejaMVC
 
         private void txtCEP_TextChanged(object sender, EventArgs e)
         {
-            txtCEP.MaxLength = 8; // Define o limite máximo de 14 caracteres
-
+            if (txtCEP.Text.Length == 8) // Sem traço, só números
+            {
+                BuscarCep(txtCEP.Text);
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -212,6 +218,43 @@ namespace IgrejaMVC
             Home form = new Home();
             this.Close();
         }
+
+        private void BuscarCep(string cep)
+        {
+            try
+            {
+                string url = $"https://viacep.com.br/ws/{cep}/json/";
+
+                var client = new RestSharp.RestClient(url);
+                var request = new RestSharp.RestRequest("", Method.Get);
+                var response = client.Execute(request);
+
+                if (!response.IsSuccessful)
+                {
+                    MessageBox.Show("Erro ao consultar o CEP.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                var endereco = System.Text.Json.JsonSerializer.Deserialize<CepEndereco>(response.Content);
+
+                if (endereco != null && endereco.cep != null)
+                {
+                    txtEndereco.Text = endereco.logradouro;
+                    txtBairroA.Text = endereco.bairro;
+                    txtCidade.Text = endereco.localidade;
+                    txtEstado.Text = endereco.uf;
+                }
+                else
+                {
+                    MessageBox.Show("CEP não encontrado.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 }
           
