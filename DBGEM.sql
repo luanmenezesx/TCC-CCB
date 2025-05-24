@@ -53,7 +53,7 @@ CREATE TABLE Aluno_Hino (
     FOREIGN KEY (id_hino) REFERENCES Hinos(id)
 );
 
-
+-- Insert de Hinos --
 INSERT INTO hinos (numero_hino, nome_hino) VALUES
 (1, 'Amém'),
 (2, 'Jesus o Bom Pastor'),
@@ -156,6 +156,14 @@ INSERT INTO hinos (numero_hino, nome_hino) VALUES
 (99, 'Senhor do Meu Coração'),
 (100, 'Sempre Fiel é o Senhor');
 
+-- Insert Intrumentos --
+INSERT INTO Instrumentos (nome_instrumento, quantidade_maxima) VALUES
+('Violino', 10),
+('Violoncelo', 5),
+('Flauta', 4),
+('Clarinete', 3),
+('Trompete', 2),
+('Saxofone', 1);
 
 -- HINO PARA ALUNO DE ID 1--
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (1, 1, '2025-01-01');
@@ -235,6 +243,7 @@ INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 47, '2025-0
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 48, '2025-02-17');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 49, '2025-02-18');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 50, '2025-02-19');
+
 
 
 
