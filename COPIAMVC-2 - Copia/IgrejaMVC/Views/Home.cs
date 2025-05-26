@@ -118,8 +118,13 @@ namespace IgrejaMVC.Views
 
             while (dr.Read())
             {
-                valores.Add(double.Parse(dr["Quantidade"].ToString()));
-                nomes.Add(dr["Instrumento"].ToString());
+                double quantidade = double.Parse(dr["Quantidade"].ToString());
+
+                if (quantidade >= 1) // ✅ Só adiciona quem tem pelo menos 1
+                {
+                    valores.Add(quantidade);
+                    nomes.Add(dr["Instrumento"].ToString());
+                }
             }
 
             ColumnSeries<double> series = new ColumnSeries<double>
@@ -152,7 +157,6 @@ namespace IgrejaMVC.Views
             cartesianChart3.LegendPosition = LiveChartsCore.Measure.LegendPosition.Top;
             cartesianChart3.Size = new System.Drawing.Size(600, 300);
         }
-
 
 
 
