@@ -59,6 +59,13 @@ namespace IgrejaMVC
                 {
                     MessageBox.Show("Aluno cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LimparCampos();
+
+                    // **Atualiza a Home**
+                    Home home = Application.OpenForms.OfType<Home>().FirstOrDefault();
+                    if (home != null)
+                    {
+                        home.AtualizarHome();
+                    }
                 }
                 else
                 {
@@ -70,7 +77,6 @@ namespace IgrejaMVC
                 MessageBox.Show($"Erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
 
         private void LimparCampos()

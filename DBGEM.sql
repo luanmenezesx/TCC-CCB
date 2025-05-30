@@ -1,6 +1,5 @@
 create database db_gem;
 use db_gem;
-
 CREATE TABLE Instrumentos (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome_instrumento VARCHAR(100) NOT NULL UNIQUE,
@@ -55,19 +54,19 @@ CREATE TABLE Aluno_Hino (
 
 -- Insert de Hinos --
 INSERT INTO hinos (numero_hino, nome_hino) VALUES
-(1, 'Amém'),
-(2, 'Jesus o Bom Pastor'),
-(3, 'Em Fervente Oração'),
+(1, 'Cristo Meu Mestre'),
+(2, 'De Deus tu és Eleita'),
+(3, 'Faz-nos ouvir'),
 (4, 'Mais Perto Quero Estar'),
 (5, 'Oh Que Belos Hinos'),
 (6, 'A Deus Demos Glória'),
 (7, 'Quão Grande És Tu'),
 (8, 'A Tua Voz Escuto'),
 (9, 'O Rei Está Voltando'),
-(10, 'Paz no Vale'),
+(10, 'Cristo o verbo'),
 (11, 'Fala, Senhor'),
 (12, 'Ao Único'),
-(13, 'Vencendo Vem Jesus'),
+(13, 'Vem Jesus'),
 (14, 'Sou Feliz com Jesus'),
 (15, 'Sublime Amor'),
 (16, 'Cristo Cura Sim'),

@@ -74,8 +74,13 @@ namespace IgrejaMVC.Views
             {
                 MessageBox.Show("Aluno atualizado com sucesso.");
 
-                Alunos formHome = new Alunos();
-                formHome.Show();
+                // **Atualiza a Home**
+                Home home = Application.OpenForms.OfType<Home>().FirstOrDefault();
+                if (home != null)
+                {
+                    home.AtualizarHome();
+                }
+
                 this.Close();
             }
             else

@@ -24,6 +24,11 @@ namespace IgrejaMVC.Views
             gridHinos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
         }
+        public void AtualizarGrids()
+        {
+            Models.Hinos hinoModel = new Models.Hinos();
+            gridHinos.DataSource = hinoModel.MostrarHinos(idAluno);
+        }
 
         private void Hinos_Load(object sender, EventArgs e)
         {
@@ -53,7 +58,6 @@ namespace IgrejaMVC.Views
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-
             if (!int.TryParse(txtNumeroHino.Text.Trim(), out int numeroHino))
             {
                 MessageBox.Show("Número do hino inválido.");
@@ -61,7 +65,7 @@ namespace IgrejaMVC.Views
             }
 
             Models.Hinos hinoModel = new Models.Hinos();
-            string resultado = hinoModel.SalvarHinoParaAluno(idAluno, numeroHino); 
+            string resultado = hinoModel.SalvarHinoParaAluno(idAluno, numeroHino);
 
             MessageBox.Show(resultado);
 
@@ -69,6 +73,13 @@ namespace IgrejaMVC.Views
 
             txtNumeroHino.Clear();
             txtNomeHino.Clear();
+
+            // **Atualiza os dados da página Home**
+            Home home = Application.OpenForms.OfType<Home>().FirstOrDefault();
+            if (home != null)
+            {
+                home.AtualizarHome();
+            }
         }
 
         private void gridAluno_CellContentClick(object sender, DataGridViewCellEventArgs e)

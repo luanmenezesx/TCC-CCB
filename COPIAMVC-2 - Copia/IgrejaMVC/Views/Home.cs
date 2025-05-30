@@ -43,6 +43,13 @@ namespace IgrejaMVC.Views
 
         }
 
+        public void AtualizarHome()
+        {
+            AtualizarGraficoPorAno(2025);
+            AtualizarGraficoAlunos(2025);
+            AtualizarGraficoInstrumentos();
+        }
+
         public string Professor { get; set; }
         public string Perfil { get; set; }
 
@@ -104,7 +111,7 @@ namespace IgrejaMVC.Views
 
         }
         // fim hinos por mes.
-
+       
 
         private void AtualizarGraficoInstrumentos()
         {
