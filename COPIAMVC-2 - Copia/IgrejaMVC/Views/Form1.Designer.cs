@@ -273,6 +273,7 @@
             txtDtInicio.Name = "txtDtInicio";
             txtDtInicio.Size = new Size(122, 27);
             txtDtInicio.TabIndex = 68;
+            txtDtInicio.ValueChanged += txtDtInicio_ValueChanged_1;
             // 
             // label14
             // 

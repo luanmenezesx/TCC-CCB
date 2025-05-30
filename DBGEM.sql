@@ -243,7 +243,6 @@ INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 48, '2025-0
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 49, '2025-02-18');
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES (2, 50, '2025-02-19');
 
--- HINO PARA ALUNO DE ID 3--
 -- HINOS PARA ALUNO DE ID 3 --
 INSERT INTO Aluno_Hino (id_aluno, id_hino, data_passagem) VALUES
 (3, 1, '2025-01-01'),

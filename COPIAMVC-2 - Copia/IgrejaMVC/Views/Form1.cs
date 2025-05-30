@@ -167,8 +167,6 @@ namespace IgrejaMVC
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // preencher o combobox do instrumento pegando da base
-
             DataTable dt = new DataTable();
             dt = BancoDados.PesquisarInstrumentoTotal();
 
@@ -176,6 +174,9 @@ namespace IgrejaMVC
             txtInstrumento.DisplayMember = "nome_instrumento";
             txtInstrumento.ValueMember = "id";
 
+            txtDtInicio.Enabled = false;
+            txtDtInicio.TabStop = false;
+            txtDtInicio.Cursor = Cursors.Default;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -200,7 +201,7 @@ namespace IgrejaMVC
 
         }
 
-      
+
         public string Professor { get; set; }
         public string Perfil { get; set; }
         private void btnProfessores_Click(object sender, EventArgs e)
@@ -266,6 +267,15 @@ namespace IgrejaMVC
             }
         }
 
+        private void txtDtInicio_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDtInicio_ValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
           

@@ -36,6 +36,9 @@ namespace IgrejaMVC.Views
             txtInstrumento.DataSource = dt;
             txtInstrumento.DisplayMember = "nome_instrumento";
             txtInstrumento.ValueMember = "id";
+            txtDtCadastro.Enabled = false;
+            txtDtCadastro.TabStop = false;
+            txtDtCadastro.Cursor = Cursors.Default;
 
             int instrumentoSelecionado = BancoDados.ObterInstrumentoDoAluno(cpfAluno);
             if (instrumentoSelecionado != -1)
