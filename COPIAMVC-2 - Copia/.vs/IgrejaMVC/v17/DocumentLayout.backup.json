@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|c:\\users\\admin\\documents\\tcc-ccb\\copiamvc-2 - copia\\igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{44F30950-9BE9-4418-8776-FBC7C580563C}|IgrejaMVC\\IgrejaMVC.csproj|solutionrelative:igrejamvc\\views\\informacoesalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
+              "RelativeDocumentMoniker": "IgrejaMVC\\App.config",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\App.config",
+              "RelativeToolTip": "IgrejaMVC\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-03T21:50:57.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "InformacoesAlunos.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesAlunos.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesAlunos.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InformacoesAlunos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\InformacoesAlunos.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\InformacoesAlunos.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Form1.cs",
@@ -84,14 +101,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs",
               "RelativeDocumentMoniker": "IgrejaMVC\\Views\\Form1.cs",
-              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs [Projeto]",
-              "RelativeToolTip": "IgrejaMVC\\Views\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\admin\\Documents\\TCC-CCB\\COPIAMVC-2 - Copia\\IgrejaMVC\\Views\\Form1.cs [Design]",
+              "RelativeToolTip": "IgrejaMVC\\Views\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T22:51:05.844Z"
+              "WhenOpened": "2025-05-30T22:51:05.844Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
