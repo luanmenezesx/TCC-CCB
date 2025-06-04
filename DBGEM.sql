@@ -1,5 +1,6 @@
 create database db_gem;
 use db_gem;
+
 CREATE TABLE Instrumentos (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome_instrumento VARCHAR(100) NOT NULL UNIQUE,
